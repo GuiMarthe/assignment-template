@@ -1,2 +1,10 @@
 README.md
 LICENSE
+.claude/
+.gitignore
+.python-version
+.venv/
+pyproject.toml
+uv.lock
+data/.gitkeep
+tasks/
