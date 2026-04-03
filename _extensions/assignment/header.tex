@@ -1,0 +1,18 @@
+\usepackage{polyglossia}
+\setmainlanguage[variant=brazilian]{portuguese}
+\usepackage{fancyhdr}
+\usepackage{titling}
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand\maketitle{
+    \fancyhead[C]{
+        \thetitle
+        \ifx \theauthor\empty  \else \ – \theauthor \fi
+        \ifx \thedate\empty  \else \ – \thedate \ \fi
+    }
+}
+\fancyfoot[C]{\thepage}
+\usepackage{etoolbox}
+\usepackage{float}
+\AtBeginDocument{\floatplacement{codelisting}{H}}
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}, fontsize=\small}

@@ -1,0 +1,32 @@
+---
+title: "Lista X -- Curso -- Disciplina"
+author: "Seu Nome"
+lang: pt-BR
+crossref:
+  fig-title: "Figura"
+  fig-prefix: "Figura"
+  tbl-title: "Tabela"
+  tbl-prefix: "Tabela"
+execute:
+  eval: true
+  output: false
+format:
+  assignment-pdf:
+    keep-tex: true
+---
+\newpage
+## Exercício 1 -- Título do Exercício
+
+::: {.callout-note appearance="minimal" icon="false"}
+**(1-a):** Enunciado do item aqui.
+:::
+
+Resolução do item aqui.
+
+```{python}
+import numpy as np
+
+# Exemplo de código
+x = np.linspace(0, 1, 100)
+print(f"Shape: {x.shape}")
+```
